@@ -7,7 +7,7 @@ const MovieCard = ({movie:
     <div className="movie-card">
       <img src={poster_path ? `https://image.tmdb.org/t/p/w500${poster_path}` : "/No-Poster-Portrait.png"} alt={title} />
       <div className="mt-4">
-        <h3>{title}</h3>
+        <h3 className="text-white font-bold text-base line-clamp-2">{title}</h3>
         <div className="content">
           <p className="rating">
             <img src="Star.svg" alt="Star" />

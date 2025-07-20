@@ -88,10 +88,13 @@ function App() {
   return (
     <>
       <div className="pattern" />
-
       <div className="wrapper">
         <header>
-          <img src="hero-img.png" alt="Hero Banner" />
+          <div className="flex flex-row items-center m-auto">
+            <img src="logo.svg" alt="Logo" className="w-28 mr-0"/>
+            <h1 className="ml-0">FlixPlorer</h1>
+          </div>
+          <img src="hero-img.png" alt="Hero Banner" className="mt-4 w-100" />
           <h1>Find <span className="text-gradient">Movies</span> You Will Enjoy Without the Hassle</h1>
         </header>
 
